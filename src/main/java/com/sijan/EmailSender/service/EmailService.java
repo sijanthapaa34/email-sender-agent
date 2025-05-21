@@ -78,15 +78,23 @@ public class EmailService {
         mailSender.send(message);
     }
 
-private String buildEmailBody() {
-    return "Dear HR Manager,\n\n"
-            + "My name is Sijan Thapa, and I am currently a second-year Bachelor of Information Technology (BIT) student at Informatics College Pokhara.\n"
-            + "I am actively seeking a Java/SpringBoot developer internship to enhance my practical experience in the industry.\n\n"
-            + "I have experience in building secure RESTful APIs using Java/Spring Boot. Additionally, I am proficient in working with SQL databases and using Git for version control.\n\n"
-            + "I'm passionate about backend development and eager to contribute to your development team with dedication and a willingness to learn.\n\n"
-            + "Please find my CV attached for your consideration.\n"
-            + "Thank you for your time and consideration.\n\n"
-            + "Best regards,\n"
-            + "Sijan Thapa";
-}
+    private String buildEmailBody() {
+        return "Dear HR Manager,\n\n"
+                + "My name is Sijan Thapa, and I am currently a second-year Bachelor of Information Technology (BIT) student at Informatics College Pokhara.\n"
+                + "I am seeking a Java/Spring Boot developer internship to gain hands-on experience and contribute to real-world projects in the industry.\n\n"
+                + "I have practical experience building secure RESTful APIs using Java and Spring Boot. I am also proficient in working with SQL databases and using Git for version control.\n\n"
+                + "I am passionate about backend development and eager to bring my dedication, problem-solving skills, and willingness to learn to your development team.\n\n"
+                + "Please feel free to explore some of my relevant projects on GitHub:\n"
+                + "- AI Personal Finance Manager (Java, Spring Boot, LLM Integration):\n"
+                + "  A secure RESTful application for managing personal finances with AI-driven insights.\n"
+                + "  Features include smart transaction categorization, budget tracking, monthly summary reports, and JWT-based authentication.\n"
+                + "  GitHub: https://github.com/sijanthapaa34/Personal-Expense-Tracker\n\n"
+                + "- Other Projects (Spring Boot): Email Agent, Movie Rental System, and more:\n"
+                + "  GitHub: https://github.com/sijanthapaa34//\n\n"
+                + "I have attached my CV for your consideration and would appreciate the opportunity to discuss how I can contribute to your team.\n\n"
+                + "Thank you very much for your time and consideration.\n\n"
+                + "Best regards,\n"
+                + "Sijan Thapa";
+    }
+
 }
